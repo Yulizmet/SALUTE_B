@@ -1,0 +1,137 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #000125, #1F0351A9, #6326D3A9);
+  background-size: cover;
+  color: #FFF;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Estilos del header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+header input {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+header button {
+  padding: 10px 20px;
+  background-color: #0073b7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* */
+.temperatura {
+  font-size: 85pt; 
+  margin-bottom: 100px;
+}
+
+.ciudad_actual {
+  h2{
+    font-size: 10pt;
+  }
+  font-weight: normal;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+
+.clima_actual_icon {
+  display: flex;
+  align-items: center;
+}
+
+.clima_actual_icon img {
+  width: 100px; 
+  height: auto; 
+  right: auto;
+}
+
+.fuente{
+  font-family: "Alata", sans-serif;
+}
+
+.detalles {
+  font-size: 13pt;
+  margin-bottom: 100px;
+}
+
+/* Estilos de los wrappers */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 120px;
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  font-size: 8pt;
+}
+
+.wrapper p,
+.wrapper img {
+  flex: 1;
+}
+
+.wrapper img {
+  width: 45px;
+  height: auto;
+}
+
+/* Estilos para los wrappers en la sección principal */
+.side-by-side-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side,
+.right-side {
+  flex: 1;
+  margin: 5px;
+}
+
+.left-side {
+  background: transparent(255, 0, 0, 0.2); 
+}
+
+.right-side {
+  background: transparent (0, 0, 255, 0.2); 
+}
+
+
+ 
